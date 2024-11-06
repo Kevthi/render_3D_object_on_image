@@ -5,7 +5,7 @@ import numpy as np
 
 def main():
     # Load the image
-    image_path = "robot_cell.jpg"
+    image_path = "robot_cell.jpg" #Change to the path of the image file
     image = cv2.imread(image_path)
     if image is None:
         raise FileNotFoundError(f"Image file not found at {image_path}")
@@ -14,7 +14,7 @@ def main():
     image_rgba = cv2.cvtColor(image, cv2.COLOR_BGR2BGRA)
 
     # Load the 3D object on the image
-    object_path = "assembly_stiffener_stp.obj"
+    object_path = "assembly_stiffener_stp.obj"  #Change to the path of the 3D object file
     try:
         mesh = trimesh.load(object_path)
         if mesh.is_empty:

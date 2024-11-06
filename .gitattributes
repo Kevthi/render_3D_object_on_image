@@ -1,0 +1,7 @@
+# Treat .obj and .mtl files as binary to prevent line ending conversions
+*.obj binary
+*.mtl binary
+
+# Alternatively, explicitly set line endings for text files
+*.py text eol=lf
+*.txt text eol=lf
