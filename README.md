@@ -43,6 +43,10 @@ Install the required dependencies:
   - `j` / `k`: Rotate along the Y-axis
   - `n` / `m`: Rotate along the Z-axis
 
+
+- **Quit the application**:
+  - `esp` : end the application
+
 ## Requirements
 - Python 3.6+
 - OpenCV
