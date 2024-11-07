@@ -43,6 +43,9 @@ Install the required dependencies:
   - `j` / `k`: Rotate along the Y-axis
   - `n` / `m`: Rotate along the Z-axis
 
+- **Change the size of the object**:
+  - `+` : Scale up
+  - `-` : Scale down
 
 - **Quit the application**:
   - `esp` : end the application
